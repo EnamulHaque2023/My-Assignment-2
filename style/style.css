@@ -1,0 +1,32 @@
+
+/* This is header section css */
+
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color:rgba(209, 19, 19, 0);
+   
+}
+/* shared CSS */
+.display-flex{
+    display: flex;
+}
+/* shared CSS */
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item{
+    list-style: none;
+    text-decoration: none;
+    margin-right: 40px;
+    
+  }
+
+  .nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    /* color: white; */
+    margin-right: 40px;
+}
