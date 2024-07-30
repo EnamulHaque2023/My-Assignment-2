@@ -92,6 +92,8 @@ body{
   
 }
 
+/* Header section end */
+
 /* this is banner section */
 .banner-container{
   display: flex;
@@ -100,8 +102,8 @@ body{
 }
 
 .banner-title{
-  margin: 30px;
-  padding: 20px;
+  margin: 20px;
+  /* padding: 20px; */
 }
 
 .title{
@@ -111,17 +113,13 @@ body{
 
 .button{
   display: flex;
-  margin: 20px;
   justify-content: space-between;
-  /* margin-right: 10px; */
-  /* padding-left: 14px; */
+ 
 }
 
 .banner-img{
   position: relative;
-  width: 100%;
-  max-width: 400px;
-  /* background-color: navajowhite; */
+
 }
 
 .img-btn{
@@ -145,9 +143,9 @@ body{
   right: 80%;
   padding: 0px 60px;
   
-
-
 }
+
+/* Banner section end */
 
 
 
@@ -169,6 +167,7 @@ body{
  /* Responsive small device media query */
 
  @media screen and (max-width:576px){
+  /* header responsive */
   .nav-item{
     display: none;
   }
@@ -176,7 +175,6 @@ body{
     display: flex;
     justify-content: space-between;
   
-    
   }
 
   .menu-hamburger{
@@ -189,19 +187,53 @@ body{
     margin: 6px 0;
 
   }
+
+  .button{
+    gap: 50px;
+  }
+
+  /* header responsive end */
+
+  /* Banner rwsponsive */
+  .banner-container{
+    flex-direction: column;
+  }
+
+  .btn-bottom{
+    bottom: 40%;
+    right: 60%;
+    padding: 0px 30px;
+  }
+  /* banner responsive end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
-
-
-
-
-
-
-
-
-
-
 }
+/* small responsive end */
 
 
 /* this responsive for large device  */
@@ -210,5 +242,10 @@ body{
   .menu-hamburger{
     display: none;
   }
+
+
+
+
+
 
 }
