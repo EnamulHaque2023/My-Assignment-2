@@ -3,14 +3,43 @@
 
 /* shared CSS */
 .display-flex{
+  display: flex;
     
 }
+.text{
+  color: white;
+}
+
+.btn-primery{
+  font-weight: bold;
+  border: 1px solid lightcyan;
+  border-radius: 18px;
+  padding: 15px;
+  color: white;
+  background-color: rgba(255, 68, 0, 0.845);
+}
+.btn-primery-2{
+  font-weight: bold;
+  border: 1px solid lightcyan;
+  border-radius: 18px;
+  padding: 15px;
+  color: white;
+  background-color: rgba(76, 72, 70, 0);
+
+}
+
 /* shared CSS */
 
 
 /* This is header section css */
 body{
   background-color: rgba(0, 0, 0, 0.932);
+
+}
+
+.header{
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar{
@@ -58,9 +87,38 @@ body{
   
 }
 
-.menu-hamburger{
-  /* display: none; */
+/* this is banner section */
+.banner-container{
+  display: flex;
+  justify-content: space-between;
+  
 }
+
+.banner-title{
+  /* margin: 30px; */
+  /* padding: 20px; */
+}
+
+.title{
+  font-size: 54px;
+  font-weight: 600px;
+}
+
+.banner-description{
+  color: gray;
+  font-weight: 40px;
+}
+
+.button{
+  display: flex;
+  /* margin-right: 10px; */
+  /* padding-left: 14px; */
+}
+
+.banner-img{
+  position: relative;
+}
+
 
 
 
@@ -88,11 +146,36 @@ body{
     
   }
 
+  .menu-hamburger{
+    margin-right: 15px;
+  }
   .hamburger{
     width: 35px;
     height: 5px;
     background-color: rgb(255, 255, 255);
     margin: 6px 0;
+
   }
   
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* this responsive for large device  */
+
+@media screen and (min-width:576px){
+  .menu-hamburger{
+    display: none;
+  }
+
 }
