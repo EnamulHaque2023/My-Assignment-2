@@ -57,3 +57,42 @@ body{
   justify-content: center;
   
 }
+
+.menu-hamburger{
+  /* display: none; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Responsive small device media query */
+
+ @media screen and (max-width:576px){
+  .nav-item{
+    display: none;
+  }
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+  
+    
+  }
+
+  .hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+  }
+  
+}
