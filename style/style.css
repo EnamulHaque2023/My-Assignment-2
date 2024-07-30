@@ -10,6 +10,11 @@
   color: white;
 }
 
+.description{
+  color: gray;
+  font-weight: 40px;
+}
+
 .btn-primery{
   font-weight: bold;
   border: 1px solid lightcyan;
@@ -95,8 +100,8 @@ body{
 }
 
 .banner-title{
-  /* margin: 30px; */
-  /* padding: 20px; */
+  margin: 30px;
+  padding: 20px;
 }
 
 .title{
@@ -104,20 +109,48 @@ body{
   font-weight: 600px;
 }
 
-.banner-description{
-  color: gray;
-  font-weight: 40px;
-}
-
 .button{
   display: flex;
+  margin: 20px;
+  justify-content: space-between;
   /* margin-right: 10px; */
   /* padding-left: 14px; */
 }
 
 .banner-img{
   position: relative;
+  width: 100%;
+  max-width: 400px;
+  /* background-color: navajowhite; */
 }
+
+.img-btn{
+  background-color: #55555521;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn-top{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+
+}
+
+.btn-bottom{
+  position: absolute;
+  bottom: 10%;
+  right: 80%;
+  padding: 0px 60px;
+  
+
+
+}
+
+
+
 
 
 
