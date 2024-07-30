@@ -1,32 +1,59 @@
 
-/* This is header section css */
 
-body{
-    max-width: 1140px;
-    margin: 0 auto;
-    background-color:rgba(209, 19, 19, 0);
-   
-}
+
 /* shared CSS */
 .display-flex{
-    display: flex;
+    
 }
 /* shared CSS */
+
+
+/* This is header section css */
+body{
+  background-color: rgba(0, 0, 0, 0.932);
+}
+
 .navbar{
+    display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 0px auto;
+    
 }
 
 .nav-item{
+    display: flex;
     list-style: none;
     text-decoration: none;
-    margin-right: 40px;
-    
+    margin: 0px 30px;
+
+    font-weight: 700px;
+    background-color: rgb(95, 84, 84);
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
   }
 
   .nav-link{
     text-decoration: none;
     font-weight: 500;
-    /* color: white; */
-    margin-right: 40px;
+    color: rgb(255, 255, 255);
+    margin-right: 30px;
+    border: none;
+    margin: 3px;
+  
+}
+
+.brand{
+  font-size: 60px;
+  font-family: initial;
+  font-weight: 800px;
+  color: red;
+}
+.hm-btn{
+  background-color: rgb(222, 12, 12);
+  border-radius: 15px;
+  padding: 2px;
+  justify-content: center;
+  
 }
