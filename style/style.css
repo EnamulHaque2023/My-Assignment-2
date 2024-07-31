@@ -1,6 +1,5 @@
 
 
-
 /* shared CSS */
 .display-flex{
   display: flex;
@@ -8,6 +7,10 @@
 }
 .text{
   color: white;
+}
+
+.title-text{
+  font-size: 44px;
 }
 
 .description{
@@ -43,7 +46,7 @@ body{
 }
 
 .header{
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -106,7 +109,7 @@ body{
   /* padding: 20px; */
 }
 
-.title{
+.*{
   font-size: 54px;
   font-weight: 600px;
 }
@@ -147,6 +150,40 @@ body{
 
 /* Banner section end */
 
+/* This is habit section */
+
+.habit-text-box{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+
+}
+
+.img-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 60px;
+}
+.img-3{
+  border: 1px solid lightcyan;
+  border-radius: 30% 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -167,7 +204,7 @@ body{
  /* Responsive small device media query */
 
  @media screen and (max-width:576px){
-  /* header responsive */
+  /* header responsive css */
   .nav-item{
     display: none;
   }
@@ -194,7 +231,7 @@ body{
 
   /* header responsive end */
 
-  /* Banner rwsponsive */
+  /* Banner rwsponsive css */
   .banner-container{
     flex-direction: column;
   }
@@ -205,6 +242,13 @@ body{
     padding: 0px 30px;
   }
   /* banner responsive end */
+
+  /* Habit responsive css */
+  .img-box{
+    flex-direction: column;
+  }
+
+  /* habit responisve end */
 
 
 
@@ -238,14 +282,8 @@ body{
 
 /* this responsive for large device  */
 
-@media screen and (min-width:576px){
+/* @media screen and (min-width:576px) and (max-width:1100) {
   .menu-hamburger{
     display: none;
   }
-
-
-
-
-
-
-}
+} */
