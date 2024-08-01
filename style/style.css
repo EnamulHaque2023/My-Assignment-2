@@ -147,7 +147,6 @@ body{
   position: absolute;
   bottom: 10%;
   right: 95%;
-  padding: 0px 60px;
   display: flex;
 
 }
@@ -239,6 +238,56 @@ body{
   height: 200px;
   border-radius: 5px;
 }
+/* exercise css ena */
+
+/* This is bmi section */
+table{
+  border-collapse: collapse;
+  width: 400px;
+ 
+
+}
+td, th {
+  border: 2px solid lightpink;
+  text-align: center;
+  padding: 8px;
+}
+/* table css end */
+
+/* This is BMI section */
+.bmi-text{
+  text-align: center;
+
+}
+.bmi-cal{
+  display: flex;
+  /* justify-content: space-between; */
+  /* text-align: center; */
+  /* align-items: center; */
+  background-color: rgba(68, 68, 68, 0.447);
+
+}
+.cal-1{
+  margin-left: 20px;
+  width: 50%;
+ 
+}
+.cal-2{
+  margin-left: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.bmi-form{
+  flex-direction: column;
+
+}
+
+.calculate{
+  margin-top: 15px;
+}
+/* BMI css end */
+
 
 
 
@@ -301,7 +350,7 @@ body{
 
   .btn-bottom{
     bottom: 40%;
-    right: 60%;
+    right: 30%;
     padding: 0px 30px;
   }
   /* banner responsive end */
@@ -330,6 +379,15 @@ body{
   /* Exercise responsive css */
   .exr-img-box{
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Bmi responsive css */
+  .bmi-cal{
+    flex-direction: column;
+
+  }
+  table{
+    width: 180%;
   }
 
 
