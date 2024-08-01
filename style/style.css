@@ -48,6 +48,7 @@ body{
 .header{
   justify-content: space-between;
   align-items: center;
+ 
 }
 
 .navbar{
@@ -101,6 +102,8 @@ body{
 .banner-container{
   display: flex;
   justify-content: space-between;
+ 
+
   
 }
 
@@ -109,7 +112,7 @@ body{
   /* padding: 20px; */
 }
 
-.*{
+.title{
   font-size: 54px;
   font-weight: 600px;
 }
@@ -143,20 +146,33 @@ body{
 .btn-bottom{
   position: absolute;
   bottom: 10%;
-  right: 80%;
+  right: 95%;
   padding: 0px 60px;
-  
+  display: flex;
+
+}
+.circle{
+  height: 30px;
+  width: 40px;
+  border-radius: 50% 50%;
+  background-color: red;
+  margin: 13px 10px;
 }
 
 /* Banner section end */
 
 /* This is habit section */
 
+.habit{
+  margin: 40px;
+}
+
 .habit-text-box{
   justify-content: center;
   align-items: center;
   text-align: center;
   margin-top: 60px;
+  
 
 }
 
@@ -173,9 +189,56 @@ body{
 
 }
 
+/* Habit section end */
+
+/* This is run section css*/
+.run{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px;
+  border-radius: 10px;
+  background-color: rgba(64, 75, 75, 0.292);
+  height: 350px auto;
+
+}
+.run-text{
+  max-width: 40%;
+  text-align: center;
+
+}
+.run-img{
+  height: 300px;
+  border-radius: 10px;
+  margin: 25px 20px;
+
+}
+/* Run section css end */
+
+/* This is exercise css */
+.Exercise{
+  margin: 40px;
+  /* background-color: rgba(250, 235, 215, 0.037); */
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  
+
+}
+.exr-img-box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px;
+  max-width: 100%;
+  margin-top: 25px;
 
 
-
+}
+.exr-img-6{
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+}
 
 
 
@@ -249,6 +312,25 @@ body{
   }
 
   /* habit responisve end */
+
+  /* This is run section responsive css */
+  .run{
+    flex-direction: column;
+    text-align: center;
+ 
+
+  }
+  .run-img{
+    width: 80%;
+    height: 60%;
+  
+  }
+  /* run section responsive end */
+
+  /* Exercise responsive css */
+  .exr-img-box{
+    grid-template-columns: repeat(2, 1fr);
+  }
 
 
 
