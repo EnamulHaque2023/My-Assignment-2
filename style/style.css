@@ -230,8 +230,6 @@ body{
   gap: 3px;
   max-width: 100%;
   margin-top: 25px;
-
-
 }
 .exr-img-6{
   width: 100%;
@@ -287,6 +285,45 @@ td, th {
   margin-top: 15px;
 }
 /* BMI css end */
+
+/* This is team section */
+.meet-text{
+  text-align: center;
+  margin: 40px;
+
+}
+.six-img-box{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: rgba(51, 53, 55, 0.66);
+  align-items: center;
+  text-align: center;
+  margin: 40px;
+  border-radius: 10px;
+  gap: 4px;
+}
+.img-a{
+  position: relative;
+  /* background-color: antiquewhite; */
+
+}
+img{
+  height: 250px;
+  width: 90%;
+  border-radius: 15px;
+  margin: 10px;
+
+}
+
+.name{
+  position: absolute;
+  top: 130px;
+  /* gap: 20px; */
+  margin: 30px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+
+}
 
 
 
@@ -349,7 +386,7 @@ td, th {
   }
 
   .btn-bottom{
-    bottom: 40%;
+    bottom: 10%;
     right: 30%;
     padding: 0px 30px;
   }
@@ -358,6 +395,7 @@ td, th {
   /* Habit responsive css */
   .img-box{
     flex-direction: column;
+    margin: 0 auto;
   }
 
   /* habit responisve end */
@@ -366,6 +404,7 @@ td, th {
   .run{
     flex-direction: column;
     text-align: center;
+    margin: 0 auto;
  
 
   }
@@ -379,6 +418,8 @@ td, th {
   /* Exercise responsive css */
   .exr-img-box{
     grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+  
   }
 
   /* Bmi responsive css */
@@ -388,6 +429,14 @@ td, th {
   }
   table{
     width: 180%;
+  }
+  /* BMI responsiv end */
+
+  /* Team Responsive  */
+  .six-img-box{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+
   }
 
 
