@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 
 
 /* shared CSS */
@@ -109,12 +110,15 @@ body{
 
 .banner-title{
   margin: 20px;
-  /* padding: 20px; */
+  padding: 20px;
 }
 
 .title{
   font-size: 54px;
   font-weight: 600px;
+}
+.shape{
+  font-family: Freehand;
 }
 
 .button{
@@ -123,8 +127,13 @@ body{
  
 }
 
+.bn-img{
+  height: 100%;
+}
+
 .banner-img{
   position: relative;
+
 
 }
 
@@ -322,8 +331,66 @@ img{
   margin: 30px;
   font-weight: bold;
   color: rgb(255, 255, 255);
+}
+/* team section css end */
+
+/* This is footer section css */
+.footer-box{
+  background-color: rgba(128, 128, 128, 0.142);
+}
+.footer-container{
+  display: flex;
+  margin: 40px;
+  justify-content: space-between;
+}
+.foot-title{
+  color: rgb(240, 24, 24);
+}
+.foot-1{
+  width: 40%;
+}
+.foot-2{
+  width: 50%;
+  /* background-color: aquamarine; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: left;
+  /* margin-left: 50px; */
+
+  
+}
+.foot-2 ul li{
+  list-style: none;
+  margin-top: 15px;
+  /* text-align: center; */
+
 
 }
+.foot-2 ul li a{
+  color: rgb(147, 144, 144);
+  color: gray;
+  font-weight: 80px;
+  text-decoration: none;
+
+}
+.foot-2 ul li a:hover{
+  color: greenyellow;
+  font-size: 20px;
+}
+
+hr{
+  margin: 40px;
+}
+.all-right{
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+  color: blanchedalmond;
+  padding-bottom: 10px;
+
+}
+/* Footer section css end */
+
 
 
 
@@ -436,7 +503,12 @@ img{
   .six-img-box{
     grid-template-columns: repeat(1, 1fr);
     margin: 0 auto;
+  }
+  /* team responsive end */
 
+  /* This is footer responsive */
+  .footer-container{
+    flex-direction: column;
   }
 
 
